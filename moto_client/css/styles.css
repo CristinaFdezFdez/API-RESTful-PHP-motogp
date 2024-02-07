@@ -1,0 +1,195 @@
+@font-face {
+    font-family: "FuentePrueba";
+    src: url(../assets/MotoGPDisplay-Bold.ttf);
+}
+
+body {
+    font-family: "FuentePrueba";
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+
+}
+
+header {
+    /*     background-color: #333;
+ */
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    width: 100vw;
+}
+
+ul li a:hover {
+    transition: 0.3s;
+    color: red;
+}
+
+#logo {
+    max-width: 20%;
+    /* Ajustar el tamaño máximo del logo */
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+/* Estilo para las celdas de encabezado */
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+/* Estilo para las celdas de datos */
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td.num-piloto {
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: larger;
+    border-radius: 5px;
+}
+
+/* Cambiar el color de fondo de cada fila de la tabla alternadamente */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover sobre las filas de la tabla */
+tr:hover {
+    background-color: #bec8be;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="submit"] {
+    background-color: #888;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(94, 94, 94);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+}
+
+.boton-nuevo {
+    background-color: #888;
+    color: #fff;
+    padding: 10px 15px;
+    text-align: center;
+    border: none;
+    border-radius: 4px;
+    /* Esquinas redondeadas */
+    cursor: pointer;
+    /* Cambia el cursor al pasar sobre el botón */
+}
+
+.boton-nuevo:hover {
+    transition: 0.2s;
+    background-color: red;
+}
+
+label {
+    margin-bottom: 8px;
+}
+
+select {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+option {
+    font-size: 15px;
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[disabled] {
+    background-color: #eee;
+}
+
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    height: 40px;
+    width: 100vw;
+}
