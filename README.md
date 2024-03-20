@@ -1,4 +1,7 @@
-# API-RESTful-PHP-motogp
+## API-RESTful-PHP-motogp
+Este proyecto consiste en una API RESTful que proporciona información sobre el mundo de MotoGP tipo CRUD. La API maneja tres recursos principales: pilotos, equipos y motos. Además, la base de datos incluye una relación 1:m entre los pilotos y los equipos, ya que un equipo puede tener varios pilotos.
+## Capturas:
+Así queda la aplicación:
 ![Captura de pantalla 2024-02-07 130515](https://github.com/CristinaFdezFdez/API-RESTful-PHP-motogp/assets/155740893/b0ddabcc-5efc-4280-9378-31275114e64e)
 ![Captura de pantalla 2024-02-07 130537](https://github.com/CristinaFdezFdez/API-RESTful-PHP-motogp/assets/155740893/02cbf59a-fccf-4b08-91c9-d3d36d6cf7cb)
 ![Captura de pantalla 2024-02-07 130553](https://github.com/CristinaFdezFdez/API-RESTful-PHP-motogp/assets/155740893/792ea9ad-70d8-495e-9f54-0cc6992efb20)
